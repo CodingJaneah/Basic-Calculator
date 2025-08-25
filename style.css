@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+    font-family: cursive;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.container {
+    background-color: purple;
+    color: white;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding: 30px 12px;
+    border-radius: 5px;
+}
+
+#inputNum {
+    border: none;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    text-align: right;
+    padding-right: 10px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+     width: 100%;
+}
+
+.boxes button {
+    width: 90px;
+    height: 70px;
+    background-color:  rgb(254, 237, 255);
+    color: hsl(0, 0%, 0%);
+    border: 1px solid gray;
+    font-size: 18px;
+    flex: 1 0 21%;
+}
+
+/* Style for the '=' button using palette colors */
+.boxes button:nth-child(20) {
+    background-color: #bb83bb; 
+    color: black;
+}
+
