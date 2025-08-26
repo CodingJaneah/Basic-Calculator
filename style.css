@@ -30,11 +30,11 @@ h1 {
     border: none;
     width: 100%;
     background-color: white;
-    height: 70px;
+    height: 110px;
     text-align: right;
     padding-right: 10px;
     outline: none;
-    font-size: 18px;
+    font-size: 40px;
     margin-bottom: 12px;
     border-radius: 5px;
 }
@@ -51,7 +51,7 @@ h1 {
     background-color:  rgb(254, 237, 255);
     color: hsl(0, 0%, 0%);
     border: 1px solid gray;
-    font-size: 18px;
+    font-size: 25px;
     flex: 1 0 21%;
 }
 
